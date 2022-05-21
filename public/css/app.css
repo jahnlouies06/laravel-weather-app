@@ -1,0 +1,104 @@
+#weatherAppBody {
+    color: white;
+    height: 100%;
+    background-image: linear-gradient(90deg, #007db9, #6ac5f0);
+}
+
+#weatherAppContainer{
+    margin-top: 20px !important;
+}
+
+#appIcon{
+    width: 50px;
+    height: auto;
+    margin: 5px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#autocomplete{
+    margin-top: 15px;
+}
+
+#weatherDetailsCard{
+    float: left;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+    height: 500px;
+    width: 50%;
+    text-align: center;
+}
+
+#otherWeatherDetails{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#cardDetails{
+    height: 110px;
+    width: 125px;
+    float: left;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#cardDetails h6{
+    font-size: 25px;
+}
+
+#cardTitle{
+    float: left;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#map{
+    float: left;
+    margin-top: 15px;
+    height: 500px;
+    width: 50%;
+}
+
+@media only screen and (max-width: 600px){
+    body, html{
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    #cardDetails{
+        height: 125px;
+        width: 100%;
+        float: left;
+        margin: 5px 0px;
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    #weatherDetailsCard{
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 500px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #map{
+        height: 500px;
+        width: 100%;
+    }
+}
+
+#weatherTemperature{
+    font-size: 70pt;
+    font-weight: bolder;
+}
+
+#weatherIcon{
+    height: 75px;
+    width: 75px;
+}
